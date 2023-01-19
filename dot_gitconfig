@@ -1,7 +1,16 @@
-[core]
-	editor = \"C:\\Users\\MARIOS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
-[user]
-	email = mariosparaskevas00@gmail.com
-	name = Marios Paraskevas
+[include]
+        path = ~/.gitconfig.local
 [alias]
 	supdate = submodule update --remote
+	tags = tag -l
+	branches = branch -a
+	remotes = remote -v
+	graph = log --decorate --all --one-line --graph --color=always --abbrev-commit --topo-order--pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+[core]
+	editor = code --wait
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	grep = auto
