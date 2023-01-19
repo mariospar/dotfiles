@@ -1,0 +1,7 @@
+[core]
+	editor = \"C:\\Users\\MARIOS\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[user]
+	email = mariosparaskevas00@gmail.com
+	name = Marios Paraskevas
+[alias]
+	supdate = submodule update --remote
