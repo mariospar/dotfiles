@@ -20,4 +20,6 @@ function goto {
 }
 
 Import-Module PSReadLine
+Import-Module -Name Terminal-Icons
+Import-Module z
 Invoke-Expression (&starship init powershell)
